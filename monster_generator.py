@@ -1,5 +1,6 @@
 import creature
 import random as rnd
+import monsters.orc as orc
 
 
 
@@ -28,6 +29,7 @@ if __name__ == "__main__":
     randomMonster = RandomMonster(0)
     randomMonster2 = RandomMonster(10)
     randomMonster3 = RandomMonster(25)
-
+    print("Creating an Orc...")
+    anOrc=orc.Orc()
 
 
